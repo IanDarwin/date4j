@@ -1,0 +1,5 @@
+# Ignore Maven "target"
+target
+
+# John uses "classes" for his source folder.
+classes
