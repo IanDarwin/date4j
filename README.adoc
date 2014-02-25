@@ -2,13 +2,15 @@
 
 == What?
 
-This is Ian Darwin's REPACKAGING of John
+This is Ian Darwin's REPACKAGING of John O'Hanley et al's Date4J API.
 
 I think of *date4j* as "the small, simple, *sensible* Date API for Java."
 
 Read all about it on http://date4j.net/
 
-The author is hostile to Maven, so since he has thoughtfully put it under the BSD license,
+== Mavenizing Date4J
+
+The author is hostile to Maven, but since he has thoughtfully put it under the BSD license,
 this is my "Redistribution and use in source and binary forms" with an intent to make it
 available to all Maven/Gradle/Buildr/etc Nexus/MavenCentral users.
 
