@@ -14,8 +14,8 @@
     <url>http://date4j.net</url>
     <licenses>
         <license>
-            <name>BSD 2-Clause "New" or "Revised" license</name>
-            <url>http://opensource.org/licenses/BSD-2-Clause</url>
+            <name>BSD 3-Clause "New" or "Revised" license</name>
+            <url>http://opensource.org/licenses/BSD-3-Clause</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
