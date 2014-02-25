@@ -1,0 +1,19 @@
+= date4j
+
+== What?
+
+This is Ian Darwin's REPACKAGING of John
+
+I think of *date4j* as "the small, simple, *sensible* Date API for Java."
+
+Read all about it on http://date4j.net/
+
+The author is hostile to Maven, so since he has thoughtfully put it under the BSD license,
+this is my "Redistribution and use in source and binary forms" with an intent to make it
+available to all Maven/Gradle/Buildr/etc Nexus/MavenCentral users.
+
+I have made no code changes, yet.
+
+I have reorganized the code into standard Maven directory structure, added the POM file,
+removed the lib directory (uses a Maven depends).
+and am setting it up for inclusion in Nexus, since I've done this for one of my own projects.
