@@ -6,7 +6,9 @@ This is Ian Darwin's REPACKAGING of Hirondelle Systems's Date4J API.
 
 I think of *date4j* as "the small, simple, *sensible* Date API for Java."
 
-Read all about it on http://date4j.net/
+*Read* all about it on http://date4j.net/
+
+*Find* it in Maven Central for use in Maven, Gradle, Buildr, Ivy, Grape, etc: http://search.maven.org/#search|ga|1|a%3A%22hirondelle-date4j%22
 
 == Mavenizing Date4J
 
