@@ -2,7 +2,7 @@
 
 == What?
 
-This is Ian Darwin's REPACKAGING of John O'Hanley et al's Date4J API.
+This is Ian Darwin's REPACKAGING of Hirondelle Systems's Date4J API.
 
 I think of *date4j* as "the small, simple, *sensible* Date API for Java."
 
