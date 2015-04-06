@@ -10,6 +10,11 @@ I think of *date4j* as "the small, simple, *sensible* Date API for Java."
 
 *Find* link:$$http://search.maven.org/#search|ga|1|a%3A%22hirondelle-date4j%22$$[the current version in Maven Central for use in Maven, Gradle, Buildr, Ivy, Grape, etc.]
 
+.*Build*
+image:http://img.shields.io/badge/license-BSD2-green.svg[link="http://github.com/IanDarwin/date4j"]
+image:https://maven-badges.herokuapp.com/maven-central/com.darwinsys/date4j/badge.svg[
+	link="https://maven-badges.herokuapp.com/maven-central/com.darwinsys/date4j"]
+
 == Mavenizing Date4J
 
 The code's original author is not a fan of Maven, but since he has thoughtfully put it under the BSD license, this is my "Redistribution and use in source and binary forms" with an intent to make it
