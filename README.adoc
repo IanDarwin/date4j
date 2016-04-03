@@ -8,6 +8,9 @@ I think of *date4j* as "the small, simple, *sensible* Date API for Java."
 
 *Read* all about it on http://date4j.net/
 
+*But* do note that most of the problems that lead to the creation of _date4j_ have been solved in the current release of Java!
+The Java 8 "new date/time API" (JSR-310, _java.time_) has what you need; see https://docs.oracle.com/javase/tutorial/datetime/
+
 *Find* link:$$http://search.maven.org/#search|ga|1|a%3A%22hirondelle-date4j%22$$[the current version in Maven Central for use in Maven, Gradle, Buildr, Ivy, Grape, etc.]
 Note that the Maven package is _hirondelle-date4j_.
 
