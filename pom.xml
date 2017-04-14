@@ -10,6 +10,13 @@
     <name>date4j</name>
     <description>The small, simple, sensible Date API for Java</description>
     <url>http://date4j.net</url>
+	<developers>
+		<developer>
+			<id>john.o.hanley</id>
+			<name>John O'Hanley</name>
+			<organization>Hirondelle Systems</organization>
+		</developer>
+	</developers>
     <licenses>
         <license>
             <name>BSD 3-Clause "New" or "Revised" license</name>
