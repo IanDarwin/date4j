@@ -29,7 +29,6 @@
         <developerConnection>scm:git:git@github.com:IanDarwin/date4j.git</developerConnection>
         <url>git@github.com:IanDarwin/date4j.git</url>
     </scm>
-	<developers />
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
