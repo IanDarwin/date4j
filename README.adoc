@@ -8,6 +8,8 @@ I think of *date4j* as "the small, simple, *sensible* Date API for Java."
 
 Read all about it on http://date4j.net/
 
+Of course, today one might just as well use +java.time.*+ instead.
+
 == Mavenizing Date4J
 
 The code's author is not a fan of Maven, but since he has thoughtfully put it under the BSD license, this is my "Redistribution and use in source and binary forms" with an intent to make it
