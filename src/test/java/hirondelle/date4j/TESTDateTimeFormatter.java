@@ -136,19 +136,19 @@ public final class TESTDateTimeFormatter   extends TestCase   {
     testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD hh12:mm:ss", "2009-10-28 01:59:01");
     testDate(SUCCESS, "2009-10-28 23:59:01", "YYYY-MM-DD hh12:mm:ss", "2009-10-28 11:59:01");
     
-    testDate(SUCCESS, "2009-10-28 01:59:01", "YYYY-MM-DD h12:mm:ss a", Locale.CANADA, "2009-10-28 1:59:01 AM");
-    testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD h12:mm:ss a", Locale.CANADA, "2009-10-28 1:59:01 PM");
+    testDate(SUCCESS, "2009-10-28 01:59:01", "YYYY-MM-DD h12:mm:ss a", Locale.CANADA, "2009-10-28 1:59:01 a.m.");
+    testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD h12:mm:ss a", Locale.CANADA, "2009-10-28 1:59:01 p.m.");
     
     //WRONG : 
      //this fails - tokens cannot appear next to each other:
-    //testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD h12:mm:ssa", Locale.CANADA, "2009-10-28 1:59:01PM");
+    //testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD h12:mm:ssa", Locale.CANADA, "2009-10-28 1:59:01p.m.");
     //the workaround for the above is to use the escape character, with nothing in between:
-    testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD h12:mm:ss||a", Locale.CANADA, "2009-10-28 1:59:01PM");
+    testDate(SUCCESS, "2009-10-28 13:59:01", "YYYY-MM-DD h12:mm:ss||a", Locale.CANADA, "2009-10-28 1:59:01p.m.");
   }
   
   public void testEscapeChar(){
     testDate(SUCCESS, "2009-10-28 01:59:01", "|Date:|YYYY-MM-DD |Time:|hh12:mm:ss", "Date:2009-10-28 Time:01:59:01");
-    testDate(SUCCESS, "15:59:59", "h12| o'clock| a", Locale.CANADA, "3 o'clock PM");
+    testDate(SUCCESS, "15:59:59", "h12| o'clock| a", Locale.CANADA, "3 o'clock p.m.");
     //inside escaped regions, the tokens are uninterpreted :
     testDate(SUCCESS, "2009-10-28 01:59:01", "|Date(YYYY-MM-DD):|YYYY-MM-DD |Timehh12:mm:ss:|hh12:mm:ss", "Date(YYYY-MM-DD):2009-10-28 Timehh12:mm:ss:01:59:01");
   }
