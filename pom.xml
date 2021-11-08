@@ -9,7 +9,7 @@
 
     <name>date4j</name>
     <description>The small, simple, sensible Date API for Java</description>
-    <url>http://date4j.net</url>
+    <url>https://github.com/johanley/date4j</url>
 	<developers>
 		<developer>
 			<id>john.o.hanley</id>

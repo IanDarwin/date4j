@@ -7,5 +7,5 @@ Specification-Vendor: Hirondelle Systems
 Implementation-Title: DATE4J
 Implementation-Version: 1.5.0
 Implementation-Vendor: Hirondelle Systems
-Implementation-URL: http://www.date4j.net/
+Implementation-URL: https://github.com/johanley/date4j
 
