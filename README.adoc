@@ -1,5 +1,9 @@
 = date4j
 
+image:http://img.shields.io/badge/license-BSD2-green.svg[link="http://github.com/IanDarwin/date4j"]
+image:https://maven-badges.herokuapp.com/maven-central/com.darwinsys/hirondelle-date4j/badge.svg[
+	link="https://maven-badges.herokuapp.com/maven-central/com.darwinsys/hirondelle-date4j"]
+
 == What?
 
 This is Ian Darwin's repackaging of Hirondelle Systems's Date4J API.
@@ -17,10 +21,6 @@ see https://docs.oracle.com/javase/tutorial/datetime/
 *Find* link:$$http://search.maven.org/#search|ga|1|a%3A%22hirondelle-date4j%22$$[the current version in Maven Central for use in Maven, Gradle, Buildr, Ivy, Grape, etc.]
 Note that the Maven package is _hirondelle-date4j_.
 
-.*Build*
-image:http://img.shields.io/badge/license-BSD2-green.svg[link="http://github.com/IanDarwin/date4j"]
-image:https://maven-badges.herokuapp.com/maven-central/com.darwinsys/hirondelle-date4j/badge.svg[
-	link="https://maven-badges.herokuapp.com/maven-central/com.darwinsys/hirondelle-date4j"]
 
 Remember, today one might just as well use +java.time.*+ instead.
 
